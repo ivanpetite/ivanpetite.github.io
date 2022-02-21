@@ -8,8 +8,6 @@
   background-size:cover;
   background-position:center;
   overflow-x: hidden;
-  animation-name: magic;
-  animation-duration: 4s;
   }
   @keyframes magic {
       from {
@@ -21,3 +19,6 @@
           opacity: 1;
       }
   }
+
+.body.animated{animation-name: magic;
+animation-duration: 4s;}
