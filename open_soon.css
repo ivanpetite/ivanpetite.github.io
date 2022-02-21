@@ -22,3 +22,11 @@
 
 .body.animated{animation-name: magic;
 animation-duration: 4s;}
+
+.cristal {display:flex;
+          position: relative;
+          z-index:1;
+          left: 10vh;
+          width:10%;
+          height:10vh;
+          }
