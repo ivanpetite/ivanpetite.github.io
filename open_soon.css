@@ -1,0 +1,23 @@
+*{scroll-behavior:smooth;
+  box-sizing: border-box;}
+
+.body {height:100vh;
+  width:100%;
+  background-attachment: fixed;
+  background-color:black;background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  overflow-x: hidden;
+  animation-name: magic;
+  animation-duration: 4s;
+  }
+  @keyframes magic {
+      from {
+
+          opacity: 0;
+      }
+      to {
+
+          opacity: 1;
+      }
+  }
