@@ -1,0 +1,2 @@
+!function(){document.getElementById("music");var e=document.getElementById("audio-visualiser");e.addEventListener("click",(function(){document.querySelectorAll("[data-animation").forEach((function(e){var n=e.style.animationPlayState||"running";e.style.animationPlayState="running"===n?"paused":"running"}))})),e.addEventListener("click",(function(){document.getElementById("music").paused?document.getElementById("music").play():document.getElementById("music").pause()}))}();
+//# sourceMappingURL=index.be8fac53.js.map
